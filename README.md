@@ -67,6 +67,23 @@ cp assets/key-caster.svg ~/.local/share/icons/hicolor/scalable/apps/
 cp assets/key-caster.png ~/.local/share/icons/hicolor/256x256/apps/
 ```
 
+### notes how should view .desktop
+#### here keycaster --platform wayland for wayland and Terminal=true that When closing a program, the process doesn't complete and needs to be shut down via btop. When opening from a terminal, it's easier to close it using ctrl-c in the terminal that opens.
+```bash
+[Desktop Entry]
+Name=Key Caster
+GenericName=Keystroke Displayer
+Comment=Lightweight on-screen keystroke displayer for Linux
+Exec=keycaster --platform wayland
+Icon=/home/vlad/.local/share/keycaster/keycaster.png
+Terminal=true
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=keystroke;screenkey;keycastr;overlay;displayer;
+StartupNotify=false
+```
+
+
 ## Usage
 
 You can launch the overlay using either command alias:
