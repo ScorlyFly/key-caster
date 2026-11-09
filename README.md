@@ -68,7 +68,7 @@ cp assets/key-caster.png ~/.local/share/icons/hicolor/256x256/apps/
 ```
 
 ### notes how should view .desktop
-#### here keycaster --platform wayland for wayland and Terminal=true that When closing a program, the process doesn't complete and needs to be shut down via btop. When opening from a terminal, it's easier to close it using ctrl-c in the terminal that opens.
+here keycaster --platform wayland for wayland and Terminal=true that When closing a program, the process doesn't complete and needs to be shut down via btop. When opening from a terminal, it's easier to close it using ctrl-c in the terminal that opens.
 ```bash
 [Desktop Entry]
 Name=Key Caster
