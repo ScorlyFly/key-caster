@@ -85,6 +85,9 @@ StartupNotify=false
 ```
 
 
+### IN New version author fix This problem which write above !!!! by can write ```Terminal=false```
+
+
 ## Usage
 
 You can launch the overlay using either command alias:
